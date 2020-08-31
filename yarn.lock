@@ -1553,6 +1553,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@babel/plugin-syntax-import-assertions@workspace:^7.10.4, @babel/plugin-syntax-import-assertions@workspace:packages/babel-plugin-syntax-import-assertions":
+  version: 0.0.0-use.local
+  resolution: "@babel/plugin-syntax-import-assertions@workspace:packages/babel-plugin-syntax-import-assertions"
+  dependencies:
+    "@babel/core": "workspace:^7.10.4"
+    "@babel/helper-plugin-utils": "workspace:^7.10.4"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  languageName: unknown
+  linkType: soft
+
 "@babel/plugin-syntax-import-meta@workspace:^7.10.4, @babel/plugin-syntax-import-meta@workspace:packages/babel-plugin-syntax-import-meta":
   version: 0.0.0-use.local
   resolution: "@babel/plugin-syntax-import-meta@workspace:packages/babel-plugin-syntax-import-meta"
@@ -1600,17 +1611,6 @@ __metadata:
 "@babel/plugin-syntax-logical-assignment-operators@workspace:^7.10.4, @babel/plugin-syntax-logical-assignment-operators@workspace:packages/babel-plugin-syntax-logical-assignment-operators":
   version: 0.0.0-use.local
   resolution: "@babel/plugin-syntax-logical-assignment-operators@workspace:packages/babel-plugin-syntax-logical-assignment-operators"
-  dependencies:
-    "@babel/core": "workspace:^7.10.4"
-    "@babel/helper-plugin-utils": "workspace:^7.10.4"
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  languageName: unknown
-  linkType: soft
-
-"@babel/plugin-syntax-module-attributes@workspace:^7.10.4, @babel/plugin-syntax-module-attributes@workspace:packages/babel-plugin-syntax-module-attributes":
-  version: 0.0.0-use.local
-  resolution: "@babel/plugin-syntax-module-attributes@workspace:packages/babel-plugin-syntax-module-attributes"
   dependencies:
     "@babel/core": "workspace:^7.10.4"
     "@babel/helper-plugin-utils": "workspace:^7.10.4"
@@ -3218,9 +3218,9 @@ __metadata:
     "@babel/plugin-syntax-flow": "workspace:^7.10.4"
     "@babel/plugin-syntax-function-bind": "workspace:^7.10.4"
     "@babel/plugin-syntax-function-sent": "workspace:^7.10.4"
+    "@babel/plugin-syntax-import-assertions": "workspace:^7.10.4"
     "@babel/plugin-syntax-import-meta": "workspace:^7.10.4"
     "@babel/plugin-syntax-jsx": "workspace:^7.10.4"
-    "@babel/plugin-syntax-module-attributes": "workspace:^7.10.4"
     "@babel/plugin-syntax-object-rest-spread": ^7.8.0
     "@babel/plugin-syntax-optional-catch-binding": ^7.8.0
     "@babel/plugin-syntax-pipeline-operator": "workspace:^7.10.4"

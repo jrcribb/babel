@@ -702,10 +702,10 @@ export function classPrivateMethod(...args: Array<any>): Object {
   return builder("ClassPrivateMethod", ...args);
 }
 export { classPrivateMethod as ClassPrivateMethod };
-export function importAttribute(...args: Array<any>): Object {
-  return builder("ImportAttribute", ...args);
+export function importAssertion(...args: Array<any>): Object {
+  return builder("ImportAssertion", ...args);
 }
-export { importAttribute as ImportAttribute };
+export { importAssertion as ImportAssertion };
 export function decorator(...args: Array<any>): Object {
   return builder("Decorator", ...args);
 }

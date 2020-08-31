@@ -776,8 +776,8 @@ export function assertClassPrivateMethod(
 ): void {
   assert("ClassPrivateMethod", node, opts);
 }
-export function assertImportAttribute(node: Object, opts?: Object = {}): void {
-  assert("ImportAttribute", node, opts);
+export function assertImportAssertion(node: Object, opts?: Object = {}): void {
+  assert("ImportAssertion", node, opts);
 }
 export function assertDecorator(node: Object, opts?: Object = {}): void {
   assert("Decorator", node, opts);

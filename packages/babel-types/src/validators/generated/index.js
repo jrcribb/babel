@@ -2472,11 +2472,11 @@ export function isClassPrivateMethod(node: ?Object, opts?: Object): boolean {
 
   return false;
 }
-export function isImportAttribute(node: ?Object, opts?: Object): boolean {
+export function isImportAssertion(node: ?Object, opts?: Object): boolean {
   if (!node) return false;
 
   const nodeType = node.type;
-  if (nodeType === "ImportAttribute") {
+  if (nodeType === "ImportAssertion") {
     if (typeof opts === "undefined") {
       return true;
     } else {

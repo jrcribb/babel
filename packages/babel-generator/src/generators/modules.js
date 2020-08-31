@@ -182,15 +182,19 @@ export function ImportDeclaration(node: Object) {
 
   if (node.attributes?.length) {
     this.space();
-    this.word("with");
+    this.word("assert");
+    this.space();
+    this.token("{");
     this.space();
     this.printList(node.attributes, node);
+    this.space();
+    this.token("}");
   }
 
   this.semicolon();
 }
 
-export function ImportAttribute(node: Object) {
+export function ImportAssertion(node: Object) {
   this.print(node.key);
   this.token(":");
   this.space();
